@@ -62,4 +62,8 @@ public class BalSimple {
 
         return theMessage;
     }
+
+    public boolean isDone() {
+        return sDepot.hasQueuedThreads();
+    }
 }

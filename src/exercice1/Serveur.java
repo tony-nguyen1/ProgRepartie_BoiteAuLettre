@@ -28,6 +28,8 @@ public class Serveur extends Thread {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
+
+            bool = boiteAuLettre.isDone();
         }
     }
 }
